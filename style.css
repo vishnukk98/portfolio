@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li a{
+    margin: 10px;
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+  
+
+}
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px black;
+    text-decoration: underline;
+
+}
+video{
+    width: 100%;
+    height: 600px ;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+h1{
+    color: bisque;
+}
+h1:hover{
+    color: rgb(222, 205, 205);
+    text-shadow: 2px 4px 6px rgb(18, 186, 219);
+
+}
+span{
+    color: blueviolet;
+    font-size: 50px;
+    
+
+}
+#home{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content:"" ;
+    background-image: url(https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722902400&semt=sph);
+    height: 100%;
+   background-size: cover;
+}
+
+.main{
+    border: 2px inset blueviolet;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    left: 75%;
+    margin-top:25% ;
+    box-shadow: 2px 4px 6px black;
+
+
+} 
+.main:hover{
+    scale: 1.05;
+}
+h3{
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+    font-style: italic;
+
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic img:hover{
+    width: 400px;
+    filter: drop-shadow(2px 4px 20px rgb(129, 34, 218));
+}
+.pic h4{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.gallery{
+    margin: 20px;
+    
+    box-shadow: 2px 4px 6px blueviolet;
+}
+.gallery img{
+    width: 400px;
+    margin: 5px;
+margin-left: 70px;
+padding: 5px;
+
+
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 400px;
+    height: 450px;
+    border: 3px ridge blueviolet;
+    margin: 4px;
+    align-items: center;
+    background: linear-gradient(to top,rgb(234, 216, 216)50%,rgb(167, 77, 197)50%);
+   background-size: 100% 200%;
+   transition: all 1.0s;
+}
+.box:hover{
+    background-position:  bottom;
+    filter: drop-shadow(2px 4px 20px rgb(129, 34, 218));
+}
+.box img{
+    width: 350px;
+    padding: 10px;
+   
+}
+.box p{
+    text-align: justify; 
+    padding: 5px;
+}
+.box h5{
+    text-align: center;
+    font-size: 30px;
+    color: cornflowerblue;
+    text-shadow: 2px 3px 4px black;
+
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+
+}
+button{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+.cv{
+    background-color: cadetblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 50%;
+    border-radius: 20%;
+   
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  /* ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(113, 30, 30); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
